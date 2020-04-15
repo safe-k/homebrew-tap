@@ -1,8 +1,8 @@
 class Nav < Formula
   desc "Enables file system location aliasing and navigation"
   homepage "https://github.com/safe-k/nav"
-  url "https://github.com/safe-k/nav/archive/v1.0.0.tar.gz"
-  sha256 "fd3809a75fddd3ba83113d24a620e5c6a2a6a6b776f4d0a89980b0ddab6bf8a7"
+  url "https://github.com/safe-k/nav/archive/v1.1.0.tar.gz"
+  sha256 "74fc668ca839bc5c4e42ded4efed615776f6739e4b2411274d6ddbbc43bd2ee4"
 
   depends_on "bash"
 
@@ -12,7 +12,6 @@ class Nav < Formula
   $bash_profile_edited = false
 
   def install
-    rm $nav_script_path, force: true
     bin.install $nav_script
   end
 
