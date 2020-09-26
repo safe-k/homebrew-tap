@@ -1,7 +1,7 @@
 class Nav < Formula
   desc "Enables file system location aliasing and navigation"
-  homepage "https://github.com/safe-k/nav"
-  url "https://github.com/safe-k/nav/archive/v1.1.0.tar.gz"
+  homepage "https://github.com/seifkamal/nav"
+  url "https://github.com/seifkamal/nav/archive/v1.1.0.tar.gz"
   sha256 "74fc668ca839bc5c4e42ded4efed615776f6739e4b2411274d6ddbbc43bd2ee4"
 
   depends_on "bash"
